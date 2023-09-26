@@ -107,7 +107,7 @@ var puntos = `
     <br>
     <p id="hol">Correctas:</p> <p id="aciertos"></p>
     <p id="hol">Incorrectas:</p> <p id="fallos"></p>
-    <img id="image" src="/img/Screenshot_2023-09-26-07-23-58-866_com.android.chrome~2.jpg" alt="">
+    <img id="image" src="/img/messi.jpg" alt="">
 
 `;
 
