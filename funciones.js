@@ -131,7 +131,7 @@ var puntos = `
     </style>
     <p id="hol">Correctas:</p> <p id="aciertos"></p>
     <p id="hol">Incorrectas:</p> <p id="fallos"></p>
-    <img id="image" src="/img/messi-copa-del-mundo.gif" alt="">
+    <img id="image" src="img/messi-copa-del-mundo.gif" alt="">
 `;
 
 var npregunta = 0;
