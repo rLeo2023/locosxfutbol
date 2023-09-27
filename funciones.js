@@ -11,12 +11,13 @@ preguntas[1] = "¿En que año Inglaterra gano un mundial?";
 preguntas[2] = "¿Cual es la seleccion que mas finales jugó?";
 preguntas[3] = "¿Que jugador disputo mas partidos en la Copa del Mundo?";
 preguntas[4] = "¿En que año Diego Maradona hizo el gol del siglo?";
-preguntas[5] = "¿Cual es la Seleccion Con Mas Mundiales?"
+preguntas[5] = "¿Cual es la Seleccion Con Mas Mundilales?"
 preguntas[6] = "¿Que jugador es el unico que tiene el Super Balon De Oro?"
 preguntas[7] = "¿Cual es el jugador con mas Balones De Oro?"
 preguntas[8] = "¿Que jugador es el unico en hacer 3 goles en una final del mundo?"
 preguntas[9] = "¿Cual fue el partido con mas espectadoresen la historia de los mundiales?"
 preguntas[10] = "¿Quien es el segundo jugador mas joven en jugar un mundial?"
+preguntas[11] = "¿Cuantos goles anoto Leo Messi durante el Mundial Qatar 2022?"
 
 opciones1[0] = "1987";
 opciones1[1] = "1966";
@@ -26,9 +27,10 @@ opciones1[4] = "1978";
 opciones1[5] = "Alemania"
 opciones1[6] = "Di Stefano"
 opciones1[7] = "Cristiano Ronaldo"
-opciones1[8] = "Pele"
+opciones1[8] = "Pelé"
 opciones1[9] = "2014 Final Argentina vs Alemania"
-opciones1[10] = "Pele"
+opciones1[10] = "Pelé"
+opciones1[11] = "7"
 
 opciones2[0] = "1986";
 opciones2[1] = "1958";
@@ -41,6 +43,7 @@ opciones2[7] = "Messi"
 opciones2[8] = "Geoff Hurst"
 opciones2[9] = "2010 Final España vs Holanda"
 opciones2[10] = "Pablo Gavi"
+opciones2[11] = "9"
 
 
 opciones3[0] = "1988";
@@ -49,11 +52,12 @@ opciones3[2] = "Alemania";
 opciones3[3] = "Paolo Maldini";
 opciones3[4] = "1990";
 opciones3[5] = "Brasil"
-opciones3[6] = "Pele"
+opciones3[6] = "Pelé"
 opciones3[7] = "Michel Platini"
 opciones3[8] = "George Best"
 opciones3[9] = "1950 Uru vs Bra"
 opciones3[10] = "Youssoufa Moukoko"
+opciones3[11] = "5"
 
 correctas[0] = "1987";
 correctas[1] = "1966";
@@ -66,6 +70,7 @@ correctas[7] = "Messi"
 correctas[8] = "Geoff Hurst"
 correctas[9] = "1950 Uru vs Bra"
 correctas[10] = "Youssoufa Moukoko"
+correctas[11] = "7"
 
 
 /*DIVISION*/
@@ -75,7 +80,6 @@ var inicio = `
 <h1 id="quiz">¿Estas listo para comenzar el Quiz de Futbol?</h1>
 <img id="fulbo" src="img/4.gif" alt=""><br>
 <button onclick="cargar(pregunta)">Comenzar</button><br>
-
 `;
 var pregunta =`
 <section id="preguntas">
@@ -91,24 +95,43 @@ var pregunta =`
 
 var info = `
     <h3 id="intro">Introduccion:</h3>
+    <hr>
     <br>
     <h4 id="inf">
     Esta aplicacion esta basada en el famoso juego "Preguntados", 
-    El objetivo consiste en responder 10 preguntas acerca de la historia del futbol en el menor tiempo posible.
-    Creadores: Martin y Benja. <br>
+    El objetivo consiste en responder 10 preguntas acerca de la historia del futbol en el menor tiempo posible. <br>
+    &copy; Benja y Martin.
     <br>
-    Version 0.90 (Beta) <br> Reversion Año 2023 (OG. NOV 2022)</h4>
+    <br>
+    <hr>
+    <br>
+    Version 0.90 (Beta) <br> Re-version Año 2023 (OG. NOV 2022)</h4>
     <br>
     <img id="imag" src="img/img1 (1).jpeg" alt="">
+    <style>
+    body{
+        background-image: url(img/bernabeu2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    </style>
 `;
 
 var puntos = `
     <h2>Resultado final</h2>
     <br>
+    <hr>
+    <br>
+    <style>
+    body{
+        background-image: url(img/mesi1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    </style>
     <p id="hol">Correctas:</p> <p id="aciertos"></p>
     <p id="hol">Incorrectas:</p> <p id="fallos"></p>
-    <img id="image" src="img/img5.png" alt="">
-
+    <img id="image" src="/img/messi-copa-del-mundo.gif" alt="">
 `;
 
 var npregunta = 0;
