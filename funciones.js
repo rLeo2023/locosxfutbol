@@ -15,7 +15,7 @@ preguntas[5] = "¿Cual es la Seleccion Con Mas Mundilales?"
 preguntas[6] = "¿Que jugador es el unico que tiene el Super Balon De Oro?"
 preguntas[7] = "¿Cual es el jugador con mas Balones De Oro?"
 preguntas[8] = "¿Que jugador es el unico en hacer 3 goles en una final del mundo?"
-preguntas[9] = "¿Cual fue el partido con mas espectadoresen la historia de los mundiales?"
+preguntas[9] = "¿Cual fue el partido con mas espectadores en la historia de los mundiales?"
 preguntas[10] = "¿Quien es el segundo jugador mas joven en jugar un mundial?"
 preguntas[11] = "¿Cuantos goles anoto Leo Messi durante el Mundial Qatar 2022?"
 
