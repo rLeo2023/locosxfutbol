@@ -6,71 +6,85 @@ var opciones3 = [];
 
 var correctas = [];
 
-preguntas[0] = "¿En que año nació Leo Messi?";
-preguntas[1] = "¿En que año Inglaterra gano un mundial?";
-preguntas[2] = "¿Cual es la seleccion que mas finales jugó?";
+preguntas[0] = "¿Cuando se retiro Diego Armando Maradona?";
+preguntas[1] = "¿En que club debuto Cristiano Ronaldo?";
+preguntas[2] = "¿A que seleccion goleo Argentina en el Mundial 78 para clasificar a la final?";
 preguntas[3] = "¿Que jugador disputo mas partidos en la Copa del Mundo?";
-preguntas[4] = "¿En que año Diego Maradona hizo el gol del siglo?";
-preguntas[5] = "¿Cual es la Seleccion Con Mas Mundilales?"
+preguntas[4] = "¿Jugador de 16 años que juegue actualmente en la primera del FC Barcelona?";
+preguntas[5] = "¿Cuantas UEFA Champions League gano el AC Milan?"
 preguntas[6] = "¿Que jugador es el unico que tiene el Super Balon De Oro?"
-preguntas[7] = "¿Cual es el jugador con mas Balones De Oro?"
-preguntas[8] = "¿Que jugador es el unico en hacer 3 goles en una final del mundo?"
-preguntas[9] = "¿Cual fue el partido con mas espectadores en la historia de los mundiales?"
-preguntas[10] = "¿Quien es el segundo jugador mas joven en jugar un mundial?"
+preguntas[7] = "¿En que club juega Karim Benzema?"
+preguntas[8] = "¿Cual fue el resultado final del Argentina - Uruguay en el Mundial 1930?"
+preguntas[9] = "¿Cual fue la cancion principal del Mundial 1998?"
+preguntas[10] = "¿Messi contra el Arsenal, en la Champions del 2010-11 anoto..."
 preguntas[11] = "¿Cuantos goles anoto Leo Messi durante el Mundial Qatar 2022?"
+preguntas[12] = "¿Ronaldinho fue comprado por el FC Barcelona en...?"
+preguntas[13] = "¿El ultimo club sudamericano en ganar el Mundial de Clubes fue...?"
+preguntas[14] = "Cual de estas selecciones nunca se clasifico a un Mundial:"
 
-opciones1[0] = "1987";
-opciones1[1] = "1966";
-opciones1[2] = "Italia";
+opciones1[0] = "1997";
+opciones1[1] = "Boavista";
+opciones1[2] = "Brasil";
 opciones1[3] = "Lothar Mattaus";
-opciones1[4] = "1978";
-opciones1[5] = "Alemania"
+opciones1[4] = "Fermín López";
+opciones1[5] = "5"
 opciones1[6] = "Di Stefano"
-opciones1[7] = "Cristiano Ronaldo"
-opciones1[8] = "Pelé"
-opciones1[9] = "2014 Final Argentina vs Alemania"
-opciones1[10] = "Pelé"
+opciones1[7] = "Al Ittihad"
+opciones1[8] = "4-2 (ganó Uruguay)"
+opciones1[9] = "La copa de la vida - Ricky Martin"
+opciones1[10] = "6 goles"
 opciones1[11] = "7"
+opciones1[12] = "2003"
+opciones1[13] = "Boca Juniors"
+opciones1[14] = "Venezuela"
 
-opciones2[0] = "1986";
-opciones2[1] = "1958";
-opciones2[2] = "Brasil";
-opciones2[3] = "Miroslav Klose";
-opciones2[4] = "1986";
-opciones2[5] = "Italia"
+opciones2[0] = "2001";
+opciones2[1] = "Sporting de Lisboa";
+opciones2[2] = "Polonia";
+opciones2[3] = "Messi";
+opciones2[4] = "Lamine Yamal";
+opciones2[5] = "8"
 opciones2[6] = "Diego Maradona"
-opciones2[7] = "Messi"
-opciones2[8] = "Geoff Hurst"
-opciones2[9] = "2010 Final España vs Holanda"
-opciones2[10] = "Pablo Gavi"
+opciones2[7] = "Al Hilal"
+opciones2[8] = "3-0 (ganó Argentina)"
+opciones2[9] = "Song 2 - Blur"
+opciones2[10] = "4 goles"
 opciones2[11] = "9"
+opciones2[12] = "2000"
+opciones2[13] = "Corinthians"
+opciones2[14] = "Irán"
 
-
-opciones3[0] = "1988";
-opciones3[1] = "1970";
-opciones3[2] = "Alemania";
+opciones3[0] = "1995";
+opciones3[1] = "Benfica";
+opciones3[2] = "Perú";
 opciones3[3] = "Paolo Maldini";
-opciones3[4] = "1990";
-opciones3[5] = "Brasil"
+opciones3[4] = "Abdessamad Ezzalzouli";
+opciones3[5] = "7"
 opciones3[6] = "Pelé"
-opciones3[7] = "Michel Platini"
-opciones3[8] = "George Best"
-opciones3[9] = "1950 Uru vs Bra"
-opciones3[10] = "Youssoufa Moukoko"
+opciones3[7] = "Real Madrid"
+opciones3[8] = "0-0 (empataron)"
+opciones3[9] = "Time of our Lives - Il Divo"
+opciones3[10] = "1 gol"
 opciones3[11] = "5"
+opciones3[12] = "2005"
+opciones3[13] = "Gremio"
+opciones3[14] = "El Salvador"
 
-correctas[0] = "1987";
-correctas[1] = "1966";
-correctas[2] = "Alemania";
-correctas[3] = "Lothar Mattaus";
-correctas[4] = "1986";
-correctas[5] = "Brasil"
+correctas[0] = "1997";
+correctas[1] = "Sporting de Lisboa";
+correctas[2] = "Perú";
+correctas[3] = "Messi";
+correctas[4] = "Lamine Yamal";
+correctas[5] = "7"
 correctas[6] = "Di Stefano"
-correctas[7] = "Messi"
-correctas[8] = "Geoff Hurst"
-correctas[9] = "1950 Uru vs Bra"
-correctas[10] = "Youssoufa Moukoko"
+correctas[7] = "Al Ittihad"
+correctas[8] = "4-2 (ganó Uruguay)"
+correctas[9] = "La copa de la vida - Ricky Martin"
+correctas[10] = "4 goles"
 correctas[11] = "7"
+correctas[12] = "2003"
+correctas[13] = "Corinthians"
+correctas[14] = "Venezuela"
 
 
 /*DIVISION*/
@@ -78,7 +92,7 @@ correctas[11] = "7"
 
 var inicio = `
 <h1 id="quiz">¿Estas listo para comenzar el Quiz de Futbol?</h1>
-<img id="fulbo" src="img/4.gif" alt=""><br>
+<img id="fulbo" src="img/gol.gif" alt=""><br>
 <button onclick="cargar(pregunta)">Comenzar</button><br>
 `;
 var pregunta =`
@@ -95,19 +109,18 @@ var pregunta =`
 
 var info = `
     <h3 id="intro">Introduccion:</h3>
-    <hr>
     <br>
+    <hr>
+    <br>    
     <h4 id="inf">
-    Esta aplicacion esta basada en el famoso juego "Preguntados", 
-    El objetivo consiste en responder 10 preguntas acerca de la historia del futbol en el menor tiempo posible. <br>
-    &copy; Benja y Martin.
+    Este quiz se basa en el juego "Preguntados". <br>
+    Acá se ponen a prueba tus conocimientos basicos de la historia del Futbol.<br>
+    &copy; DEV: Martin y Benja.
     <br>
     <br>
-    <hr>
+    Version 1.0 <br> Ultima actualizacion 05/10/23 (VER. OG: NOV 2022)</h4>
     <br>
-    Version 0.90 (Beta) <br> Re-version Año 2023 (OG. NOV 2022)</h4>
-    <br>
-    <img id="imag" src="img/img1 (1).jpeg" alt="">
+    <img id="imag" src="img/img2.jpeg" alt="">
     <style>
     body{
         background-image: url(img/bernabeu2.jpg);
@@ -124,14 +137,17 @@ var puntos = `
     <br>
     <style>
     body{
-        background-image: url(img/mesi1.jpg);
+        background-image: url(img/qatar.png);
         background-size: cover;
         background-repeat: no-repeat;
+        background-color: black;
+        background-position: 50%;
+        object-fit: contain;
     }
     </style>
     <p id="hol">Correctas:</p> <p id="aciertos"></p>
     <p id="hol">Incorrectas:</p> <p id="fallos"></p>
-    <img id="image" src="img/messi-copa-del-mundo.gif" alt="">
+    <img id="image" src="img/campeon.gif" alt="">
 `;
 
 var npregunta = 0;
@@ -157,20 +173,28 @@ function mostrarPregunta(){
     document.getElementById("opcion2").innerHTML = opciones2[npregunta];
     document.getElementById("opcion3").innerHTML = opciones3[npregunta];
 
-}
+}   
 
 function evaluar(opcion){
     if(opcion == correctas[npregunta]){
-    alert("correcto");
+        Swal.fire(
+            'Felicidades',
+            '¡Es correcto!',
+            'success'
+          )
     aciertos = aciertos + 1;
     }else{
-        alert("incorrecto");
+        Swal.fire({
+            icon: 'error',
+            title: 'Ups!',
+            text: '¡La respuesta fue incorrecta!',
+          })
         fallos = fallos + 1;
     }
 
     npregunta = npregunta + 1;
 
-    if(npregunta == 11){
+    if(npregunta == 15){
         cargar(puntos);
         document.getElementById("aciertos").innerHTML = aciertos;
         document.getElementById("fallos").innerHTML = fallos;
